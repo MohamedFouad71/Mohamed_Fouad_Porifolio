@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mohamed Fouad Rashid - Portfolio</title>
   <style>
     body {
+      background-image: url(./imgs/background3.jpg);
+      background-size: contain;
       font-family: Arial, sans-serif;
       line-height: 1.6;
       margin: 0;
@@ -13,15 +16,32 @@
       background-color: #f5f5f5;
       color: #333;
     }
+
     header {
-      background-color: #222;
       color: white;
       padding: 20px;
       text-align: center;
     }
+
     header h1 {
       color: #ffffff;
     }
+
+    .specialization {
+      font-size: larger;
+      position: relative;
+      bottom: 10px;
+    }
+
+    header p a {
+      text-decoration: none;
+    }
+
+    header p a:hover {
+      color: wheat;
+      text-decoration: none;
+    }
+
     section {
       max-width: 900px;
       margin: 20px auto;
@@ -29,28 +49,46 @@
       background: white;
       border-radius: 8px;
     }
-    h1, h2, h3 {
+
+    h1,
+    h2,
+    h3 {
       color: #222;
     }
+
+    /*
+    h2 {
+      color: white;
+      display: inline-block;
+      background-color: #222;
+      border-radius: 20px;
+      padding: 5px 10px;
+    }
+    */
+
     ul {
       padding-left: 20px;
     }
+
     a {
       color: #0066cc;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
   </style>
 </head>
+
 <body>
   <header>
     <h1>Mohamed Fouad Rashid</h1>
-    <p>
-      📞 +20 128 145 6456 | 
-      📧 <a href="mailto:mf2976527@gmail.com">mf2976527@gmail.com</a> | 
-      <a href="http://www.linkedin.com/in/mohamed-fouad71" target="_blank">LinkedIn</a> | 
+    <div class="specialization">Software Engineer</div>
+    <p class="profile-links">
+      📞 +20 128 145 6456 |
+      📧 <a href="mailto:mf2976527@gmail.com">mf2976527@gmail.com</a> |
+      <a href="http://www.linkedin.com/in/mohamed-fouad71" target="_blank">LinkedIn</a> |
       <a href="https://github.com/MohamedFouad71" target="_blank">GitHub</a>
     </p>
   </header>
@@ -58,18 +96,19 @@
   <section>
     <h2>Objective</h2>
     <p>
-      Passionate software developer with a strong foundation in DotNet development and problem solving.
-      I have worked in several projects where I collaborated with my teammates and followed clean coding techniques.
-      I am seeking an internship opportunity where I can apply my technical skills.
+      Experienced software developer that worked in several real life projects.
+      I can help you bring your ideas to life by providing hardware design for software solutions, full software
+      development, and deployment services. Whether you need embedded systems, application development, or end-to-end
+      deployment, I offer expertise across the entire product lifecycle.
+      <br>
+      if you are interested in my services please feel free to contact me.
     </p>
   </section>
 
   <section>
     <h2>Education</h2>
     <p><strong>Computer and Control Engineering, Suez Canal University</strong><br>
-    Bachelor’s Degree in Computer (in progress)<br>
-    Expected Graduation: 2026<br>
-    GPA: 3.56</p>
+      Bachelor’s Degree in Computer Engineering</p>
   </section>
 
   <section>
@@ -92,6 +131,12 @@
       <li>Console-based system using custom-built Doubly Linked List and Hash Table</li>
       <li>OOP design with modular and clean architecture</li>
     </ul>
+    <h3>Laser Security Alarm System with RFID Authentication</h3>
+    <ul>
+      <li>Designed and implemented a laser-based intrusion detection system using Arduino </li>
+      <li>Features real-time monitoring, audible alarm, and status indication via LEDs</li>
+      <li>Integrated hardware components: laser module, LDR, buzzer, RFID, and Arduino </li>
+    </ul>
   </section>
 
   <section>
@@ -101,6 +146,7 @@
       <li><strong>Concepts:</strong> OOP, Data Structures, Algorithms, SOLID Principles</li>
       <li><strong>Technologies:</strong> Git, Linux, SQL Server, ASP.NET MVC, EF Core, LINQ</li>
       <li><strong>Networking:</strong> Packet Tracer</li>
+      <li><strong>DevOps:</strong> Docker, K8s, Ansible</li>
     </ul>
   </section>
 
@@ -109,9 +155,19 @@
     <ul>
       <li><strong>.NET Development – ITI (July 2025):</strong> C#, ASP.NET MVC, EF Core, LINQ, SQL</li>
       <li><strong>Mobile Network Specialist – ITI (August 2025):</strong> Linux, Databases, Mobile Networks</li>
-      <li><strong>DevOps – DEPI (In Progress):</strong> Linux, Bash, Git, Docker</li>
+      <li><strong>DevOps – DEPI</strong> Linux, Bash, Git, Docker</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Offered Services</h2>
+    <ul>
+      <li><strong>Full Saas (Software as a service): </strong> Including backend, frontend, deployment or even
+        electronics design if needed</li>
+      <li><strong>Devops Support: </strong> can collaborate with a team or even work indvidually</li>
     </ul>
   </section>
 
 </body>
+
 </html>
